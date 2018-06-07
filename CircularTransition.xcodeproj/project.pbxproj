@@ -12,6 +12,8 @@
 		B6460A6D20C94FFA00DF470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6460A6B20C94FFA00DF470E /* Main.storyboard */; };
 		B6460A6F20C94FFA00DF470E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6460A6E20C94FFA00DF470E /* Assets.xcassets */; };
 		B6460A7220C94FFA00DF470E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6460A7020C94FFA00DF470E /* LaunchScreen.storyboard */; };
+		B6460A7A20C95FAF00DF470E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6460A7920C95FAF00DF470E /* SecondViewController.swift */; };
+		B6460A7C20C962D800DF470E /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6460A7B20C962D800DF470E /* CircularTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B6460A6E20C94FFA00DF470E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6460A7120C94FFA00DF470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6460A7320C94FFA00DF470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6460A7920C95FAF00DF470E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B6460A7B20C962D800DF470E /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				B6460A6720C94FFA00DF470E /* AppDelegate.swift */,
 				B6460A6920C94FFA00DF470E /* ViewController.swift */,
+				B6460A7B20C962D800DF470E /* CircularTransition.swift */,
+				B6460A7920C95FAF00DF470E /* SecondViewController.swift */,
 				B6460A6B20C94FFA00DF470E /* Main.storyboard */,
 				B6460A6E20C94FFA00DF470E /* Assets.xcassets */,
 				B6460A7020C94FFA00DF470E /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6460A7A20C95FAF00DF470E /* SecondViewController.swift in Sources */,
 				B6460A6A20C94FFA00DF470E /* ViewController.swift in Sources */,
 				B6460A6820C94FFA00DF470E /* AppDelegate.swift in Sources */,
+				B6460A7C20C962D800DF470E /* CircularTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGG4PHM8YL;
 				INFOPLIST_FILE = CircularTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hi-yuki.CircularTransition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGG4PHM8YL;
 				INFOPLIST_FILE = CircularTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hi-yuki.CircularTransition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
